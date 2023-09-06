@@ -1,0 +1,301 @@
+/* -------------------------------- GLOBAL -------------------------------- */
+
+NO_BLUETOOTH_DEVICES_CONNECTED = "No Bluetooth Devices Connected";
+CURRENT_UPTIME = "Current Uptime";
+
+PERCENT_FORMAT = "%i%%";
+TIME_FORMAT = "%ldd %ldh %ldm";
+DEFAULT_COLOR_FORMAT = "Default: #%@";
+
+LEFT = "Left";
+RIGHT = "Right";
+
+ONE = "One";
+TWO = "Two";
+THREE = "Three";
+
+SLIDERS = "Sliders";
+FAVORITE_TOGGLES = "Favorite Toggles";
+
+CANCEL = "Cancel";
+CONTINUE = "Continue";
+APPLY = "Apply";
+
+RESPRING = "Respring";
+RESET_PREFERENCES = "Reset Preferences";
+RESET_PREFERENCES_QUESTION = "Reset Preferences?";
+RESET_PREFERENCES_DESCRIPTION = "This cannot be undone";
+RESET = "Reset";
+
+TEXT_COLOR = "Text Color";
+BACKGROUND_COLOR = "Background Color";
+
+BACKGROUND_IMAGE = "Background Image";
+BACKGROUND_IMAGE_SUBTITLE = "Main background image";
+
+CONFIGURED_PRESET_TEXT = "Configured preset text";
+
+APP_PLAYING = "App Playing";
+
+DEVELOPER = "DEVELOPER";
+DESIGNER = "DESIGNER";
+
+PORTRAIT_MODE = "Portrait";
+LANDSCAPE_MODE = "Landscape";
+
+/* ------------------------------ ROOT PAGE ------------------------------ */
+
+TWEAK_CONFIGURATION_TITLE = "Tweak Configuration";
+ENABLE_TWEAK_TITLE = "Enable";
+ENABLE_TWEAK_SUBTITLE = "Enable Jade";
+
+GENERAL_SETTINGS_TITLE = "General Settings";
+PRESENTATION_GESTURE_TITLE = "Presentation Gesture";
+PRESENTATION_GESTURE_SUBTITLE = "Size and location of the present gesture";
+INTERFACE_TITLE = "Interface";
+INTERFACE_SUBTITLE = "Control the look and feel";
+MODULES_TITLE = "Modules";
+MODULES_SUBTITLE = "Control the custom modules' look";
+THEMING_TITLE = "Theming";
+THEMING_SUBTITLE = "Make the UI look just the way you want";
+
+PRESETS_SETTINGS_TITLE = "Preset Settings";
+
+IMPORT_PRESET_TITLE = "Import Preset";
+IMPORT_PRESET_SUBTITLE = "Import a configured preset";
+
+EXPORT_PRESET_TITLE = "Export Preset";
+EXPORT_PRESET_SUBTITLE = "Export current preset";
+
+/* ---------------------- PRESENTATION GESTURE PAGE ---------------------- */
+
+GESTURE_LOCATION_TITLE = "Gesture Location";
+GESTURE_LOCATION_SUBTITLE = "Location of the activation gesture";
+
+STOCK = "Stock";
+BOTH = "Both";
+
+PRESENT_EXPANDED_TITLE = "Present Expanded";
+PRESENT_EXPANDED_SUBTITLE = "Present the menu completely expanded";
+
+PRESENTATION_OFFSET_TITLE = "Presentation Offset";
+PRESENTATION_OFFSET_SUBTITLE = "The vertical offset of the menu when opened";
+
+/* --------------------------- INTERFACE PAGE --------------------------- */
+
+CORNER_RADIUS_TITLE = "Corner Radius";
+CORNER_RADIUS_SUBTITLE = "The corner radius of all the elements in Jade";
+
+INDICATORS_TITLE = "Indicators";
+SHOW_BATTERY_WIDGET_TITLE = "Show Battery";
+SHOW_BATTERY_WIDGET_SUBTITLE = "Show battery indicator widget";
+SHOW_TIME_WIDGET_TITLE = "Show Time";
+SHOW_TIME_WIDGET_SUBTITLE = "Show time indicator widget";
+
+WIDGET_LAYOUT_TITLE = "Widget Layout";
+WIDGET_LAYOUT_SUBTITLE = "Positioning of the widgets";
+
+SPLIT = "Split";
+
+HIDE_BATTERY_PERCENT_TITLE = "Hide Battery Percent";
+HIDE_BATTERY_PERCENT_SUBTITLE = "Hide the current battery percentage next to the battery icon in the battery widget";
+
+LOW_POWER_MODE_TAP_TITLE = "Tap for Low Power Mode";
+LOW_POWER_MODE_TAP_SUBTITLE = "Tap the battery pill to enter low power mode and vice versa";
+
+GRABBER = "Grabber";
+HIDE_GRABBER_TITLE = "Hide Grabber";
+HIDE_GRABBER_SUBTITLE = "Hide the menu grabber";
+
+SHOW_BACKGROUND_BLUR_TITLE = "Show Background Blur";
+SHOW_BACKGROUND_BLUR_SUBTITLE = "Show the stock background blur behind the menu";
+
+/* ----------------------------- MODULES PAGE ----------------------------- */
+
+INCLUDED = "Included";
+CONNECTIVITY = "Connectivity";
+MEDIA_CONTROLS = "Media Controls";
+UPTIME = "Uptime";
+POWER_CONTROLS = "Power Controls";
+BLUETOOTH_DEVICES = "Bluetooth Devices";
+WEATHER = "Weather";
+ORIGINAL_MODULES = "Original Modules";
+EXCLUDED = "Excluded";
+
+/* -------------------------- CONNECTIVITY PAGE --------------------------- */
+
+CONNECTIVITY_MODULES_TITLE = "Connectivity Modules";
+
+WIFI = "Wi-Fi";
+BLUETOOTH = "Bluetooth";
+AIRPLANE_MODE = "Airplane Mode";
+CELLULAR = "Cellular";
+AIRDROP = "AirDrop";
+PERSONAL_HOTSPOT = "Personal Hotspot";
+
+CHANGEABLE_MODULE = "Custom Module";
+CONNECTIVITY_CHANGEABLE_ICON_SUBTITLE = "Select which module to display for the custom module above";
+
+/* ----------------------------- SLIDERS PAGE ----------------------------- */
+
+BRIGHTNESS = "Brightness";
+VOLUME = "Volume";
+
+ROUNDED_SLIDERS_TITLE = "Rounded Sliders";
+ROUNDED_SLIDERS_SUBTITLE = "Make the innards of the sliders rounded";
+
+HAPTIC_SLIDERS_TITLE = "Haptic Sliders";
+HAPTIC_SLIDERS_SUBTITLE = "Haptic feedback for the sliders";
+
+STATIC_GLYPHS_TITLE = "Static Glyphs";
+STATIC_GLYPHS_SUBTITLE = "No animation for icons";
+
+PERCENT_LABELS_TITLE = "Percent Labels";
+PERCENT_LABELS_SUBTITLE = "Show percent of slider next to icon";
+
+/* ------------------------- FAVORITE TOGGLES PAGE ------------------------ */
+
+FAVORITE_TOGGLES_TITLE = "Number of Pages";
+FAVORITE_TOGGLES_SUBTITLE = "Number of scrollable pages for the favorite toggles section";
+
+FAVORITE_TOGGLES_CLARIFICATION = "The first modules in the Control Center section of the Settings app will be selected for the favorite toggles";
+
+/* ------------------------------ MEDIA PAGE ----------------------------- */
+
+MEDIA = "Media";
+
+NO_MEDIA_TITLE = "No Media";
+NO_MEDIA_SUBTITLE = "Hide the media module when no media is playing or paused";
+
+MEDIA_PROGRESS_TITLE = "Hide Media Progress";
+MEDIA_PROGRESS_SUBTITLE = "Hide the media progress bar";
+
+HIDE_MEDIA_ICON_TITLE = "Hide Media Icon";
+HIDE_MEDIA_ICON_SUBTITLE = "Hide now playing media icon";
+
+/* ----------------------------- POWER PAGE ----------------------------- */
+
+TECHNICAL_POWER_OPTIONS_TITLE = "Power Options";
+
+USE_USERSPACE_REBOOT_TITLE = "Use Userspace Reboot";
+USE_USERSPACE_REBOOT_SUBTITLE = "Perform userspace reboot when the reboot button is pressed";
+
+USE_SBRELOAD_TITLE = "Use sbreload";
+USE_SBRELOAD_SUBTITLE = "Use sbreload to respring instead of \"killall SpringBoard\"";
+
+UNAVAILABLE_ON_XINA = "Unavailable on XinaA15";
+
+REBOOT = "Reboot";
+SHUTDOWN = "Shutdown";
+SAFE_MODE = "Safe Mode";
+LOCK = "Lock";
+
+/* ---------------------------- THEMING PAGE ------------------------------ */
+
+LEGACY_THEME_SUPPORT_TITLE = "Legacy Theme Support";
+LEGACY_THEME_SUPPORT_SUBTITLE = "Compatibility with legacy themes from Prysm";
+LEGACY_THEME_SUPPORT_FOOTER_TEXT = "When enabled, images will be read from \"/Library/Application Support/Prysm/Icons\" on rootful and \"/var/jb/Library/Application Support/Prysm/Icons\" on rootless.\n\nThis allows cross-compatibility with legacy themes from Prysm. By default, the folder is empty. If disabled, images will be read from system images (SF Symbols).";
+
+INDICATORS_SUBTITLE = "Customize the look of the indicators";
+
+CUSTOM_MODULES_TITLE = "Custom Modules";
+CUSTOM_MODULES_SUBTITLE = "Customize the look of the custom modules";
+
+STOCK_MODULES_TITLE = "Stock Modules";
+STOCK_MODULES_SUBTITLE = "Customize the look of the stock modules";
+
+GRABBER_COLOR = "Grabber Color";
+
+BACKGROUND_OPACITY_TITLE = "Background Opacity";
+BACKGROUND_OPACITY_SUBTITLE = "Set the background opacity of the menu";
+
+/* -------------------------- INDICATORS PAGE ---------------------------- */
+
+TIME_INDICATOR_TITLE = "Time Indicator";
+BATTERY_INDICATOR_TITLE = "Battery Indicator";
+
+/* ------------------------ CUSTOM MODULES PAGE -------------------------- */
+
+CUSTOM_MODULES_BACKGROUND_COLOR = "Background Colors";
+
+CONNECTIVITY_COLORS_TITLE = "Connectivity Colors";
+CONNECTIVITY_COLORS_SUBTITLE = "Colors for the connectivity modules within the custom module";
+
+SLIDERS_THEMING_TITLE = "Sliders Colors";
+SLIDERS_THEMING_SUBTITLE = "Colors for the slider modules";
+
+MEDIA_THEMING_TITLE = "Media Colors";
+MEDIA_THEMING_SUBTITLE = "Colors for the media module's items";
+
+POWER_THEMING_TITLE = "Power Colors";
+POWER_THEMING_SUBTITLE = "Colors for the power module's items";
+
+UPTIME_THEMING_TITLE = "Uptime Colors";
+UPTIME_THEMING_SUBTITLE = "Colors for the uptime module's items";
+
+WEATHER_THEMING_TITLE = "Weather Colors";
+WEATHER_THEMING_SUBTITLE = "Colors for the weather module's items";
+
+BLUETOOTH_THEMING_TITLE = "Bluetooth Colors";
+BLUETOOTH_THEMING_SUBTITLE = "Colors for the bluetooth module's items";
+
+/* --------------------- CONNECTIVITY COLORS PAGE ----------------------- */
+
+COLOR_GLYPHS_TITLE = "Color Glyphs";
+COLOR_GLYPHS_SUBTITLE = "Color the icons instead of the module backgrounds";
+
+INACTIVE_MODULE_COLOR = "Inactive Module Color";
+
+/* ------------------------ SLIDER COLORS PAGE -------------------------- */
+
+SLIDER_COLOR = "Slider Color";
+
+/* ------------------------- MEDIA COLORS PAGE -------------------------- */
+
+MEDIA_PLACEHOLDER_IMAGE_TINT_COLOR = "Placeholder Image Color";
+MEDIA_ARTWORK_BACKGROUND_TINT_COLOR = "Artwork Background Color";
+
+MEDIA_TITLE_TEXT_COLOR = "Media Title Color";
+MEDIA_SUBTITLE_TEXT_COLOR = "Media Subtitle Color";
+
+MEDIA_BACKWARD_IMAGE_TINT_COLOR = "Backward Image Color";
+MEDIA_PLAY_IMAGE_TINT_COLOR = "Play Image Color";
+MEDIA_FORWARD_IMAGE_TINT_COLOR = "Forward Image Color";
+
+MEDIA_PROGRESS_COLOR = "Progress Color";
+
+/* ------------------------- UPTIME COLORS PAGE -------------------------- */
+
+UPTIME_TEXT = "Uptime Text";
+UPTIME_TIME = "Uptime Time";
+
+/* ------------------------ WEATHER COLORS PAGE -------------------------- */
+
+WEATHER_CONDITION_COLOR = "Condition Color";
+WEATHER_LOCATION_COLOR = "Location Color";
+WEATHER_TEMPERATURE_COLOR = "Temperature Color";
+WEATHER_HIGH_LOW_COLOR = "High/Low Color";
+
+/* ----------------------- BLUETOOTH COLORS PAGE ------------------------- */
+
+NO_BLUETOOTH_DEVICES_COLOR = "No Bluetooth Devices Color";
+BLUETOOTH_ICON_TINT_COLOR = "Icon Tint Color";
+BLUETOOTH_CHARGING_COLOR = "Charging Color";
+BLUETOOTH_PERCENT_COLOR = "Percent Color";
+BLUETOOTH_DEVICE_COLOR = "Device Name Color";
+
+/* ------------------------- STOCK MODULES PAGE --------------------------- */
+
+STOCK_MODULES_ON_COLOR = "Color When On";
+STOCK_MODULES_OFF_COLOR = "Default Color";
+
+/* ---------------------------- POWER MODULE ------------------------------ */
+
+REBOOT_DEVICE = "Reboot Device";
+REBOOT_DEVICE_DISCLAIMER = "Are you sure you want to reboot your device? Your device will be sent to non-jailbroken mode.";
+
+USERSPACE_REBOOT_DEVICE = "Userspace Reboot";
+USERSPACE_REBOOT_DEVICE_DISCLAIMER = "Are you sure you want to userspace reboot your device?";
+
+SHUTDOWN_DEVICE = "Shutdown Device";
+SHUTDOWN_DEVICE_DISCLAIMER = "Are you sure you want to shutdown your device? Your device will be shut down.";
