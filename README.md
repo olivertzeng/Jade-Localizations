@@ -35,7 +35,7 @@ If you do not have Discord, you can reach out to me on [Twitter](https://twitter
 
 ###### Thank you to the following people who helped localize the tweak into these languages.
 
-- 🇵🇸 Arabic - [RickyTheHunter](https://discordapp.com/users/859787484236873788)
+- 🇵🇸 Arabic - [RickyTheHunter](https://discordapp.com/users/859787484236873788), [Ash](https://twitter.com/ash001_), [Kinda 🦋](https://discordapp.com/users/1029075910298718319), and [HERCULES](https://discordapp.com/users/990813551071469568)
 - 🇨🇳 Simplified Chinese - [Gushi](https://twitter.com/gu3hi)
 - 🇩🇰 Danish - [allanyholm](https://discordapp.com/users/265123526489407488)
 - 🇳🇱 Dutch - [Janneske](https://twitter.com/jam_minty)
@@ -45,4 +45,4 @@ If you do not have Discord, you can reach out to me on [Twitter](https://twitter
 - 🇳🇴 Norwegian - [SanderzenHD](https://twitter.com/sanderzenhd)
 - 🇪🇸 Spanish - [перекладач](https://discordapp.com/users/852586745002197074)
 - 🇹🇷 Turkish - [mamis](https://instagram.com/mamistard)
-- 🇻🇳 Vietnamese - [YangJiii 🍉](https://twitter.com/duongduong0908) & [netz](https://twitter.com/tk_netz)
+- 🇻🇳 Vietnamese - [YangJiii 🍉](https://twitter.com/duongduong0908) and [netz](https://twitter.com/tk_netz)
