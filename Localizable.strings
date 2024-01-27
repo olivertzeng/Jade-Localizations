@@ -1,6 +1,6 @@
 /* -------------------------------- GLOBAL -------------------------------- */
 
-NO_BLUETOOTH_DEVICES_CONNECTED = "No Bluetooth Devices Connected";
+NO_BLUETOOTH_DEVICES_CONNECTED = "未連接藍芽裝置";
 CURRENT_UPTIME = "目前上線時間";
 
 PERCENT_FORMAT = "%i%%";
@@ -35,7 +35,7 @@ BACKGROUND_IMAGE_SUBTITLE = "主要背景圖片";
 
 CONFIGURED_PRESET_TEXT = "文字模版";
 
-APP_PLAYING = "媒體應用程式";
+APP_PLAYING = "音樂應用程式";
 
 DEVELOPER = "開發者";
 DESIGNER = "介面設計者";
@@ -75,120 +75,120 @@ GESTURE_LOCATION_SUBTITLE = "啟用控制中心之手勢啟用位置";
 STOCK = "預設";
 BOTH = "啟用兩者";
 
-PRESENT_EXPANDED_TITLE = "Present Expanded";
-PRESENT_EXPANDED_SUBTITLE = "Present the menu completely expanded";
+PRESENT_EXPANDED_TITLE = "自動擴展目錄";
+PRESENT_EXPANDED_SUBTITLE = "自動顯示已完全擴展之目錄";
 
-PRESENTATION_OFFSET_TITLE = "Presentation Offset";
-PRESENTATION_OFFSET_SUBTITLE = "The vertical offset of the menu when opened";
+PRESENTATION_OFFSET_TITLE = "控制中心手勢開啟位置";
+PRESENTATION_OFFSET_SUBTITLE = "開啟控制中心後頁面將佔頁面的比例";
 
 /* --------------------------- INTERFACE PAGE --------------------------- */
 
-CORNER_RADIUS_TITLE = "Corner Radius";
-CORNER_RADIUS_SUBTITLE = "The corner radius of all the elements in Jade";
+CORNER_RADIUS_TITLE = "角落半徑";
+CORNER_RADIUS_SUBTITLE = "設定所有控制中心中的模組角落半徑（數值越大越接境圓形）";
 
-INDICATORS_TITLE = "Indicators";
-SHOW_BATTERY_WIDGET_TITLE = "Show Battery";
-SHOW_BATTERY_WIDGET_SUBTITLE = "Show battery indicator widget";
-SHOW_TIME_WIDGET_TITLE = "Show Time";
-SHOW_TIME_WIDGET_SUBTITLE = "Show time indicator widget";
+INDICATORS_TITLE = "指示器";
+SHOW_BATTERY_WIDGET_TITLE = "顯示電池";
+SHOW_BATTERY_WIDGET_SUBTITLE = "顯示電池小工具";
+SHOW_TIME_WIDGET_TITLE = "顯示時間";
+SHOW_TIME_WIDGET_SUBTITLE = "顯示時間小工具";
 
-WIDGET_LAYOUT_TITLE = "Widget Layout";
-WIDGET_LAYOUT_SUBTITLE = "Positioning of the widgets";
+WIDGET_LAYOUT_TITLE = "小工具編排";
+WIDGET_LAYOUT_SUBTITLE = "小工具之位置";
 
-SPLIT = "Split";
+SPLIT = "分散";
 
-HIDE_BATTERY_PERCENT_TITLE = "Hide Battery Percent";
-HIDE_BATTERY_PERCENT_SUBTITLE = "Hide the current battery percentage next to the battery icon in the battery widget";
+HIDE_BATTERY_PERCENT_TITLE = "隱藏電量";
+HIDE_BATTERY_PERCENT_SUBTITLE = "在電池小工具內隱藏目前電池電量";
 
-LOW_POWER_MODE_TAP_TITLE = "Tap for Low Power Mode";
-LOW_POWER_MODE_TAP_SUBTITLE = "Tap the battery pill to enter low power mode and vice versa";
+LOW_POWER_MODE_TAP_TITLE = "點擊圖示以啟用低耗電模式";
+LOW_POWER_MODE_TAP_SUBTITLE = "點擊電池圖示以啟用低耗電模式等等";
 
-GRABBER = "Grabber";
-HIDE_GRABBER_TITLE = "Hide Grabber";
-HIDE_GRABBER_SUBTITLE = "Hide the menu grabber";
+GRABBER = "隱藏控制中心右上角手勢提示條";
+HIDE_GRABBER_TITLE = "隱藏手勢提示條";
+HIDE_GRABBER_SUBTITLE = "隱藏右上角的手勢提示條";
 
-SHOW_BACKGROUND_BLUR_TITLE = "Show Background Blur";
-SHOW_BACKGROUND_BLUR_SUBTITLE = "Show the stock background blur behind the menu";
+SHOW_BACKGROUND_BLUR_TITLE = "背景模糊";
+SHOW_BACKGROUND_BLUR_SUBTITLE = "在目錄中啟用背景模糊";
 
 /* ----------------------------- MODULES PAGE ----------------------------- */
 
-INCLUDED = "Included";
-CONNECTIVITY = "Connectivity";
-MEDIA_CONTROLS = "Media Controls";
-UPTIME = "Uptime";
-POWER_CONTROLS = "Power Controls";
-BLUETOOTH_DEVICES = "Bluetooth Devices";
-WEATHER = "Weather";
-ORIGINAL_MODULES = "Original Modules";
-EXCLUDED = "Excluded";
+INCLUDED = "已包含";
+CONNECTIVITY = "連接";
+MEDIA_CONTROLS = "播放控制";
+UPTIME = "上線時間";
+POWER_CONTROLS = "電源控制";
+BLUETOOTH_DEVICES = "藍芽裝置";
+WEATHER = "天氣";
+ORIGINAL_MODULES = "原始模組";
+EXCLUDED = "已排除";
 
 /* -------------------------- CONNECTIVITY PAGE --------------------------- */
 
 CONNECTIVITY_MODULES_TITLE = "Connectivity Modules";
 
 WIFI = "Wi-Fi";
-BLUETOOTH = "Bluetooth";
-AIRPLANE_MODE = "Airplane Mode";
-CELLULAR = "Cellular";
+BLUETOOTH = "藍芽";
+AIRPLANE_MODE = "飛航模式";
+CELLULAR = "行動數據";
 AIRDROP = "AirDrop";
-PERSONAL_HOTSPOT = "Personal Hotspot";
+PERSONAL_HOTSPOT = "個人熱點";
 
-CHANGEABLE_MODULE = "Custom Module";
-CONNECTIVITY_CHANGEABLE_ICON_SUBTITLE = "Select which module to display for the custom module above";
+CHANGEABLE_MODULE = "自訂模組";
+CONNECTIVITY_CHANGEABLE_ICON_SUBTITLE = "從上面選擇欲使用之模組";
 
 /* ----------------------------- SLIDERS PAGE ----------------------------- */
 
-BRIGHTNESS = "Brightness";
-VOLUME = "Volume";
+BRIGHTNESS = "亮度";
+VOLUME = "音量";
 
-ROUNDED_SLIDERS_TITLE = "Rounded Sliders";
-ROUNDED_SLIDERS_SUBTITLE = "Make the innards of the sliders rounded";
+ROUNDED_SLIDERS_TITLE = "圓形滑桿";
+ROUNDED_SLIDERS_SUBTITLE = "使搖桿角落變圓";
 
-HAPTIC_SLIDERS_TITLE = "Haptic Sliders";
-HAPTIC_SLIDERS_SUBTITLE = "Haptic feedback for the sliders";
+HAPTIC_SLIDERS_TITLE = "振動搖桿";
+HAPTIC_SLIDERS_SUBTITLE = "在使用搖桿時將振動裝置";
 
-STATIC_GLYPHS_TITLE = "Static Glyphs";
-STATIC_GLYPHS_SUBTITLE = "No animation for icons";
+STATIC_GLYPHS_TITLE = "固定圖示";
+STATIC_GLYPHS_SUBTITLE = "此將停用圖示動畫";
 
-PERCENT_LABELS_TITLE = "Percent Labels";
-PERCENT_LABELS_SUBTITLE = "Show percent of slider next to icon";
+PERCENT_LABELS_TITLE = "百分比文字";
+PERCENT_LABELS_SUBTITLE = "在圖示旁顯示百分比";
 
 /* ------------------------- FAVORITE TOGGLES PAGE ------------------------ */
 
-FAVORITE_TOGGLES_TITLE = "Number of Pages";
-FAVORITE_TOGGLES_SUBTITLE = "Number of scrollable pages for the favorite toggles section";
+FAVORITE_TOGGLES_TITLE = "控制中心頁數";
+FAVORITE_TOGGLES_SUBTITLE = "此設定將決定喜好模組頁數";
 
-FAVORITE_TOGGLES_CLARIFICATION = "The first modules in the Control Center section of the Settings app will be selected for the favorite toggles";
+FAVORITE_TOGGLES_CLARIFICATION = "在設定中的「控制中心」頁面之第一志願模組將視為喜好模組";
 
 /* ------------------------------ MEDIA PAGE ----------------------------- */
 
-MEDIA = "Media";
+MEDIA = "播放控制";
 
-NO_MEDIA_TITLE = "No Media";
-NO_MEDIA_SUBTITLE = "Hide the media module when no media is playing or paused";
+NO_MEDIA_TITLE = "隱藏播放控制";
+NO_MEDIA_SUBTITLE = "在暫停播放音樂時自動隱藏播放控制";
 
-MEDIA_PROGRESS_TITLE = "Hide Media Progress";
-MEDIA_PROGRESS_SUBTITLE = "Hide the media progress bar";
+MEDIA_PROGRESS_TITLE = "隱藏播放控制進度";
+MEDIA_PROGRESS_SUBTITLE = "隱藏播放控制進度條";
 
-HIDE_MEDIA_ICON_TITLE = "Hide Media Icon";
-HIDE_MEDIA_ICON_SUBTITLE = "Hide now playing media icon";
+HIDE_MEDIA_ICON_TITLE = "隱藏音樂應用程式圖示";
+HIDE_MEDIA_ICON_SUBTITLE = "隱藏正在播放音樂應用程式圖示";
 
 /* ----------------------------- POWER PAGE ----------------------------- */
 
-TECHNICAL_POWER_OPTIONS_TITLE = "Power Options";
+TECHNICAL_POWER_OPTIONS_TITLE = "電源設定";
 
-USE_USERSPACE_REBOOT_TITLE = "Use Userspace Reboot";
-USE_USERSPACE_REBOOT_SUBTITLE = "Perform userspace reboot when the reboot button is pressed";
+USE_USERSPACE_REBOOT_TITLE = "使用重新啟動使用者空間";
+USE_USERSPACE_REBOOT_SUBTITLE = "使用重新啟動使用者空間以取代一般重新啟動模組按鈕";
 
-USE_SBRELOAD_TITLE = "Use sbreload";
-USE_SBRELOAD_SUBTITLE = "Use sbreload to respring instead of \"killall SpringBoard\"";
+USE_SBRELOAD_TITLE = "使用 sbreload";
+USE_SBRELOAD_SUBTITLE = "「重新啟動主畫面」將使用「sbreload」指令以取代「killall SpringBoard」";
 
-UNAVAILABLE_ON_XINA = "Unavailable on XinaA15";
+UNAVAILABLE_ON_XINA = "無法在 XinaA15 越獄上使用";
 
-REBOOT = "Reboot";
-SHUTDOWN = "Shutdown";
-SAFE_MODE = "Safe Mode";
-LOCK = "Lock";
+REBOOT = "重新啟動";
+SHUTDOWN = "關機";
+SAFE_MODE = "安全模式";
+LOCK = "鎖定螢幕";
 
 /* ---------------------------- THEMING PAGE ------------------------------ */
 
@@ -204,28 +204,28 @@ CUSTOM_MODULES_SUBTITLE = "自訂模組外觀";
 STOCK_MODULES_TITLE = "預設模組";
 STOCK_MODULES_SUBTITLE = "設定預設模組外觀";
 
-GRABBER_COLOR = "Grabber Color";
+GRABBER_COLOR = "手勢提示條顏色";
 
-BACKGROUND_OPACITY_TITLE = "Background Opacity";
-BACKGROUND_OPACITY_SUBTITLE = "Set the background opacity of the menu";
+BACKGROUND_OPACITY_TITLE = "背景透明度";
+BACKGROUND_OPACITY_SUBTITLE = "設定目錄背景透明度";
 
 /* -------------------------- INDICATORS PAGE ---------------------------- */
 
-TIME_INDICATOR_TITLE = "Time Indicator";
-BATTERY_INDICATOR_TITLE = "Battery Indicator";
+TIME_INDICATOR_TITLE = "時間狀態欄";
+BATTERY_INDICATOR_TITLE = "電池狀態欄";
 
 /* ------------------------ CUSTOM MODULES PAGE -------------------------- */
 
-CUSTOM_MODULES_BACKGROUND_COLOR = "Background Colors";
+CUSTOM_MODULES_BACKGROUND_COLOR = "背景顏色";
 
-CONNECTIVITY_COLORS_TITLE = "Connectivity Colors";
-CONNECTIVITY_COLORS_SUBTITLE = "Colors for the connectivity modules within the custom module";
+CONNECTIVITY_COLORS_TITLE = "連接顏色";
+CONNECTIVITY_COLORS_SUBTITLE = "連接模組顏色";
 
-SLIDERS_THEMING_TITLE = "Sliders Colors";
-SLIDERS_THEMING_SUBTITLE = "Colors for the slider modules";
+SLIDERS_THEMING_TITLE = "滑桿顏色";
+SLIDERS_THEMING_SUBTITLE = "滑桿模組顏色";
 
-MEDIA_THEMING_TITLE = "媒體顏色";
-MEDIA_THEMING_SUBTITLE = "媒體模組顏色";
+MEDIA_THEMING_TITLE = "播放控制顏色";
+MEDIA_THEMING_SUBTITLE = "播放控制模組顏色";
 
 POWER_THEMING_TITLE = "電源顏色";
 POWER_THEMING_SUBTITLE = "電源模組顏色";
@@ -253,16 +253,16 @@ SLIDER_COLOR = "滑桿顏色";
 /* ------------------------- MEDIA COLORS PAGE -------------------------- */
 
 MEDIA_PLACEHOLDER_IMAGE_TINT_COLOR = "佔位符顏色";
-MEDIA_ARTWORK_BACKGROUND_TINT_COLOR = "媒體封面圖背景顏色";
+MEDIA_ARTWORK_BACKGROUND_TINT_COLOR = "音樂封面圖背景顏色";
 
-MEDIA_TITLE_TEXT_COLOR = "媒體標題顏色";
-MEDIA_SUBTITLE_TEXT_COLOR = "媒體副標題顏色";
+MEDIA_TITLE_TEXT_COLOR = "音樂標題顏色";
+MEDIA_SUBTITLE_TEXT_COLOR = "音樂副標題顏色";
 
 MEDIA_BACKWARD_IMAGE_TINT_COLOR = "上一首顏色";
 MEDIA_PLAY_IMAGE_TINT_COLOR = "播放顏色";
 MEDIA_FORWARD_IMAGE_TINT_COLOR = "下一首顏色";
 
-MEDIA_PROGRESS_COLOR = "播放器進度條顏色";
+MEDIA_PROGRESS_COLOR = "播放控制進度條顏色";
 
 /* ------------------------- UPTIME COLORS PAGE -------------------------- */
 
