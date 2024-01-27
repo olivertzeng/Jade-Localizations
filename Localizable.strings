@@ -3,8 +3,8 @@
 NO_BLUETOOTH_DEVICES_CONNECTED = "未連接藍芽裝置";
 CURRENT_UPTIME = "目前上線時間";
 
-PERCENT_FORMAT = "%i%%";
-TIME_FORMAT = "%ldd %ldh %ldm";
+PERCENT_FORMAT = "%i%％";
+TIME_FORMAT = "%ld天 %ld時 %ld分";
 DEFAULT_COLOR_FORMAT = "預設：#%@";
 
 LEFT = "左側";
