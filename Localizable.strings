@@ -1,79 +1,79 @@
 /* -------------------------------- GLOBAL -------------------------------- */
 
 NO_BLUETOOTH_DEVICES_CONNECTED = "No Bluetooth Devices Connected";
-CURRENT_UPTIME = "Current Uptime";
+CURRENT_UPTIME = "目前上線時間";
 
 PERCENT_FORMAT = "%i%%";
 TIME_FORMAT = "%ldd %ldh %ldm";
-DEFAULT_COLOR_FORMAT = "Default: #%@";
+DEFAULT_COLOR_FORMAT = "預設：#%@";
 
-LEFT = "Left";
-RIGHT = "Right";
+LEFT = "左側";
+RIGHT = "右側";
 
-ONE = "One";
-TWO = "Two";
-THREE = "Three";
+ONE = "一個";
+TWO = "兩個";
+THREE = "三個";
 
-SLIDERS = "Sliders";
-FAVORITE_TOGGLES = "Favorite Toggles";
+SLIDERS = "滑桿";
+FAVORITE_TOGGLES = "喜好控制中心模組";
 
-CANCEL = "Cancel";
-CONTINUE = "Continue";
-APPLY = "Apply";
+CANCEL = "取消";
+CONTINUE = "確認";
+APPLY = "套用";
 
-RESPRING = "Respring";
-RESET_PREFERENCES = "Reset Preferences";
-RESET_PREFERENCES_QUESTION = "Reset Preferences?";
-RESET_PREFERENCES_DESCRIPTION = "This cannot be undone";
-RESET = "Reset";
+RESPRING = "重新啟動主畫面";
+RESET_PREFERENCES = "回復預設設定";
+RESET_PREFERENCES_QUESTION = "是否回復預設設定？";
+RESET_PREFERENCES_DESCRIPTION = "此為不可逆的設定！";
+RESET = "回復";
 
-TEXT_COLOR = "Text Color";
-BACKGROUND_COLOR = "Background Color";
+TEXT_COLOR = "文字顏色";
+BACKGROUND_COLOR = "背景顏色";
 
-BACKGROUND_IMAGE = "Background Image";
-BACKGROUND_IMAGE_SUBTITLE = "Main background image";
+BACKGROUND_IMAGE = "背景圖片";
+BACKGROUND_IMAGE_SUBTITLE = "主要背景圖片";
 
-CONFIGURED_PRESET_TEXT = "Configured preset text";
+CONFIGURED_PRESET_TEXT = "文字模版";
 
-APP_PLAYING = "App Playing";
+APP_PLAYING = "媒體應用程式";
 
-DEVELOPER = "DEVELOPER";
-DESIGNER = "DESIGNER";
+DEVELOPER = "開發者";
+DESIGNER = "介面設計者";
 
-PORTRAIT_MODE = "Portrait";
-LANDSCAPE_MODE = "Landscape";
+PORTRAIT_MODE = "直向";
+LANDSCAPE_MODE = "橫向";
 
 /* ------------------------------ ROOT PAGE ------------------------------ */
 
-TWEAK_CONFIGURATION_TITLE = "Tweak Configuration";
-ENABLE_TWEAK_TITLE = "Enable";
-ENABLE_TWEAK_SUBTITLE = "Enable Jade";
+TWEAK_CONFIGURATION_TITLE = "插件設定";
+ENABLE_TWEAK_TITLE = "啟用";
+ENABLE_TWEAK_SUBTITLE = "啟用 Jade";
 
-GENERAL_SETTINGS_TITLE = "General Settings";
-PRESENTATION_GESTURE_TITLE = "Presentation Gesture";
-PRESENTATION_GESTURE_SUBTITLE = "Size and location of the present gesture";
-INTERFACE_TITLE = "Interface";
-INTERFACE_SUBTITLE = "Control the look and feel";
-MODULES_TITLE = "Modules";
-MODULES_SUBTITLE = "Control the custom modules' look";
-THEMING_TITLE = "Theming";
-THEMING_SUBTITLE = "Make the UI look just the way you want";
+GENERAL_SETTINGS_TITLE = "主要設定";
+PRESENTATION_GESTURE_TITLE = "控制中心手勢";
+PRESENTATION_GESTURE_SUBTITLE = "手勢範圍以及位置"
+INTERFACE_TITLE = "介面";
+INTERFACE_SUBTITLE = "控制控制中心外觀";
+MODULES_TITLE = "模組";
+MODULES_SUBTITLE = "設定控制中心元件";
+THEMING_TITLE = "外觀主題";
+THEMING_SUBTITLE = "選擇不同的風格";
 
-PRESETS_SETTINGS_TITLE = "Preset Settings";
+PRESETS_SETTINGS_TITLE = "管理設定檔";
 
-IMPORT_PRESET_TITLE = "Import Preset";
-IMPORT_PRESET_SUBTITLE = "Import a configured preset";
+IMPORT_PRESET_TITLE = "導入設定檔";
+IMPORT_PRESET_SUBTITLE = "導入已設定的設定檔";
 
-EXPORT_PRESET_TITLE = "Export Preset";
-EXPORT_PRESET_SUBTITLE = "Export current preset";
+EXPORT_PRESET_TITLE = "導出設定檔"
+EXPORT_PRESET_SUBTITLE = "導出已設定的設定檔
 
 /* ---------------------- PRESENTATION GESTURE PAGE ---------------------- */
 
-GESTURE_LOCATION_TITLE = "Gesture Location";
-GESTURE_LOCATION_SUBTITLE = "Location of the activation gesture";
+GESTURE_LOCATION_TITLE = "手勢位置";
+GESTURE_LOCATION_SUBTITLE = "啟用控制中心之手勢啟用位置";
 
-STOCK = "Stock";
-BOTH = "Both";
+STOCK = "預設";
+BOTH = "啟用兩者";
 
 PRESENT_EXPANDED_TITLE = "Present Expanded";
 PRESENT_EXPANDED_SUBTITLE = "Present the menu completely expanded";
@@ -192,17 +192,17 @@ LOCK = "Lock";
 
 /* ---------------------------- THEMING PAGE ------------------------------ */
 
-LEGACY_THEME_SUPPORT_TITLE = "Legacy Theme Support";
-LEGACY_THEME_SUPPORT_SUBTITLE = "Compatibility with legacy themes from Prysm";
-LEGACY_THEME_SUPPORT_FOOTER_TEXT = "When enabled, images will be read from \"/Library/Application Support/Prysm/Icons\" on rootful and \"/var/jb/Library/Application Support/Prysm/Icons\" on rootless.\n\nThis allows cross-compatibility with legacy themes from Prysm. By default, the folder is empty. If disabled, images will be read from system images (SF Symbols).";
+LEGACY_THEME_SUPPORT_TITLE = "控制中心舊主題支援";
+LEGACY_THEME_SUPPORT_SUBTITLE = "Prysm 插件控制中心舊主題支援";
+LEGACY_THEME_SUPPORT_FOOTER_TEXT = "啟用時，圖檔將從 \"/Library/Application Support/Prysm/Icons\"（有根越獄）以及 \"/var/jb/Library/Application Support/Prysm/Icons\"（無根越獄）中載入\n\n這將讓 Jade 能支援 Prysm 控制中心就主題。若未更改檔案，上述之資料夾將為空。若停用此功能圖檔將從 SF Symbols 中載入。";
 
-INDICATORS_SUBTITLE = "Customize the look of the indicators";
+INDICATORS_SUBTITLE = "設定指示器外觀";
 
-CUSTOM_MODULES_TITLE = "Custom Modules";
-CUSTOM_MODULES_SUBTITLE = "Customize the look of the custom modules";
+CUSTOM_MODULES_TITLE = "設定模組外觀";
+CUSTOM_MODULES_SUBTITLE = "自訂模組外觀";
 
-STOCK_MODULES_TITLE = "Stock Modules";
-STOCK_MODULES_SUBTITLE = "Customize the look of the stock modules";
+STOCK_MODULES_TITLE = "預設模組";
+STOCK_MODULES_SUBTITLE = "設定預設模組外觀";
 
 GRABBER_COLOR = "Grabber Color";
 
@@ -224,78 +224,78 @@ CONNECTIVITY_COLORS_SUBTITLE = "Colors for the connectivity modules within the c
 SLIDERS_THEMING_TITLE = "Sliders Colors";
 SLIDERS_THEMING_SUBTITLE = "Colors for the slider modules";
 
-MEDIA_THEMING_TITLE = "Media Colors";
-MEDIA_THEMING_SUBTITLE = "Colors for the media module's items";
+MEDIA_THEMING_TITLE = "媒體顏色";
+MEDIA_THEMING_SUBTITLE = "媒體模組顏色";
 
-POWER_THEMING_TITLE = "Power Colors";
-POWER_THEMING_SUBTITLE = "Colors for the power module's items";
+POWER_THEMING_TITLE = "電源顏色";
+POWER_THEMING_SUBTITLE = "電源模組顏色";
 
-UPTIME_THEMING_TITLE = "Uptime Colors";
-UPTIME_THEMING_SUBTITLE = "Colors for the uptime module's items";
+UPTIME_THEMING_TITLE = "上線時間顏色";
+UPTIME_THEMING_SUBTITLE = "上線時間模組顏色";
 
-WEATHER_THEMING_TITLE = "Weather Colors";
-WEATHER_THEMING_SUBTITLE = "Colors for the weather module's items";
+WEATHER_THEMING_TITLE = "天氣顏色";
+WEATHER_THEMING_SUBTITLE = "天氣模組顏色";
 
-BLUETOOTH_THEMING_TITLE = "Bluetooth Colors";
-BLUETOOTH_THEMING_SUBTITLE = "Colors for the bluetooth module's items";
+BLUETOOTH_THEMING_TITLE = "藍芽顏色";
+BLUETOOTH_THEMING_SUBTITLE = "藍芽模組顏色"
 
 /* --------------------- CONNECTIVITY COLORS PAGE ----------------------- */
 
-COLOR_GLYPHS_TITLE = "Color Glyphs";
-COLOR_GLYPHS_SUBTITLE = "Color the icons instead of the module backgrounds";
+COLOR_GLYPHS_TITLE = "圖示顏色";
+COLOR_GLYPHS_SUBTITLE = "不將模組背景上色，而是將模組圖示上色";
 
-INACTIVE_MODULE_COLOR = "Inactive Module Color";
+INACTIVE_MODULE_COLOR = "未啟用模組顏色";
 
 /* ------------------------ SLIDER COLORS PAGE -------------------------- */
 
-SLIDER_COLOR = "Slider Color";
+SLIDER_COLOR = "滑桿顏色";
 
 /* ------------------------- MEDIA COLORS PAGE -------------------------- */
 
-MEDIA_PLACEHOLDER_IMAGE_TINT_COLOR = "Placeholder Image Color";
-MEDIA_ARTWORK_BACKGROUND_TINT_COLOR = "Artwork Background Color";
+MEDIA_PLACEHOLDER_IMAGE_TINT_COLOR = "佔位符顏色";
+MEDIA_ARTWORK_BACKGROUND_TINT_COLOR = "媒體封面圖背景顏色";
 
-MEDIA_TITLE_TEXT_COLOR = "Media Title Color";
-MEDIA_SUBTITLE_TEXT_COLOR = "Media Subtitle Color";
+MEDIA_TITLE_TEXT_COLOR = "媒體標題顏色";
+MEDIA_SUBTITLE_TEXT_COLOR = "媒體副標題顏色";
 
-MEDIA_BACKWARD_IMAGE_TINT_COLOR = "Backward Image Color";
-MEDIA_PLAY_IMAGE_TINT_COLOR = "Play Image Color";
-MEDIA_FORWARD_IMAGE_TINT_COLOR = "Forward Image Color";
+MEDIA_BACKWARD_IMAGE_TINT_COLOR = "上一首顏色";
+MEDIA_PLAY_IMAGE_TINT_COLOR = "播放顏色";
+MEDIA_FORWARD_IMAGE_TINT_COLOR = "下一首顏色";
 
-MEDIA_PROGRESS_COLOR = "Progress Color";
+MEDIA_PROGRESS_COLOR = "播放器進度條顏色";
 
 /* ------------------------- UPTIME COLORS PAGE -------------------------- */
 
-UPTIME_TEXT = "Uptime Text";
-UPTIME_TIME = "Uptime Time";
+UPTIME_TEXT = "上線時間文字";
+UPTIME_TIME = "上線時間";
 
 /* ------------------------ WEATHER COLORS PAGE -------------------------- */
 
-WEATHER_CONDITION_COLOR = "Condition Color";
-WEATHER_LOCATION_COLOR = "Location Color";
-WEATHER_TEMPERATURE_COLOR = "Temperature Color";
-WEATHER_HIGH_LOW_COLOR = "High/Low Color";
+WEATHER_CONDITION_COLOR = "氣象顏色";
+WEATHER_LOCATION_COLOR = "位置顏色";
+WEATHER_TEMPERATURE_COLOR = "溫度顏色";
+WEATHER_HIGH_LOW_COLOR = "高/低溫顏色";
 
 /* ----------------------- BLUETOOTH COLORS PAGE ------------------------- */
 
-NO_BLUETOOTH_DEVICES_COLOR = "No Bluetooth Devices Color";
-BLUETOOTH_ICON_TINT_COLOR = "Icon Tint Color";
-BLUETOOTH_CHARGING_COLOR = "Charging Color";
-BLUETOOTH_PERCENT_COLOR = "Percent Color";
-BLUETOOTH_DEVICE_COLOR = "Device Name Color";
+NO_BLUETOOTH_DEVICES_COLOR = "無藍芽裝置顏色";
+BLUETOOTH_ICON_TINT_COLOR = "圖示主題顏色";
+BLUETOOTH_CHARGING_COLOR = "充電中顏色";
+BLUETOOTH_PERCENT_COLOR = "電量顏色";
+BLUETOOTH_DEVICE_COLOR = "裝置名稱顏色";
 
 /* ------------------------- STOCK MODULES PAGE --------------------------- */
 
-STOCK_MODULES_ON_COLOR = "Color When On";
-STOCK_MODULES_OFF_COLOR = "Default Color";
+STOCK_MODULES_ON_COLOR = "啟用模組時的顏色";
+STOCK_MODULES_OFF_COLOR = "預設顏色";
 
 /* ---------------------------- POWER MODULE ------------------------------ */
 
-REBOOT_DEVICE = "Reboot Device";
-REBOOT_DEVICE_DISCLAIMER = "Are you sure you want to reboot your device? Your device will be sent to non-jailbroken mode.";
+REBOOT_DEVICE = "重新啟動";
+REBOOT_DEVICE_DISCLAIMER = "是否重新啟動裝置？重新啟動將解除已越獄狀態！";
 
-USERSPACE_REBOOT_DEVICE = "Userspace Reboot";
-USERSPACE_REBOOT_DEVICE_DISCLAIMER = "Are you sure you want to userspace reboot your device?";
+USERSPACE_REBOOT_DEVICE = "重啟使用者空間";
+USERSPACE_REBOOT_DEVICE_DISCLAIMER = "是否重啟使用者空間？";
 
-SHUTDOWN_DEVICE = "Shutdown Device";
-SHUTDOWN_DEVICE_DISCLAIMER = "Are you sure you want to shutdown your device? Your device will be shut down.";
+SHUTDOWN_DEVICE = "關機";
+SHUTDOWN_DEVICE_DISCLAIMER = "是否關機？";
